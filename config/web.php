@@ -73,4 +73,8 @@ if (YII_ENV_DEV) {
     ];
 }
 
+'request' => [
+    'cookieValidationKey' => '<secret random string goes here>',
+],
+
 return $config;
